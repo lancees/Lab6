@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/lancesander/CLionProjects/Lab6/Node.h
+memory
+-
+
+/Users/lancesander/CLionProjects/Lab6/PrecondViolatedExcep.h
+stdexcept
+-
+string
+-
+
+/Users/lancesander/CLionProjects/Lab6/SortedList.h
+memory
+-
+iostream
+-
+Node.h
+/Users/lancesander/CLionProjects/Lab6/Node.h
+PrecondViolatedExcep.h
+/Users/lancesander/CLionProjects/Lab6/PrecondViolatedExcep.h
+SortedListInterface.h
+/Users/lancesander/CLionProjects/Lab6/SortedListInterface.h
+
+/Users/lancesander/CLionProjects/Lab6/SortedListInterface.h
+
+/Users/lancesander/CLionProjects/Lab6/sortedlist.cpp
+iostream
+-
+random
+-
+chrono
+-
+SortedList.h
+/Users/lancesander/CLionProjects/Lab6/SortedList.h
+
